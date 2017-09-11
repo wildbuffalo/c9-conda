@@ -11,23 +11,24 @@ python -V
 1. http://conda.pydata.org/miniconda.html , right clik on the 64-bit Linux and copy the file address for the proper version you need.
 2. Prepare to install Miniconda. Download Miniconda 64Bits for Linux using wget. 
 ```
-wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
 
 3.Changing file permission for execution
 ```
-chmod a+x Miniconda2-latest-Linux-x86_64.sh
+chmod a+x Miniconda3-latest-Linux-x86_64.sh
 ```
 
 4.Installing Miniconda
 ```
-./Miniconda2-latest-Linux-x86_64.sh
+./Miniconda3-latest-Linux-x86_64.sh
 ```
 5. Before installing packages. Close the current c9 bash terminal. Open a new terminal.
 
 ### Install packages
 
 ```
+conda install python=3.5
 conda install numpy
 ```
 You may be promopted
