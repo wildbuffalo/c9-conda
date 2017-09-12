@@ -36,6 +36,7 @@ Install other packages similarly.
 conda install pandas
 conda install pandas-datareader
 conda install matplotlib
+conda install beautifulsoup4
 ```
 In the terminal type Python you should see something like this:
 ```
@@ -65,6 +66,7 @@ conda install opencv
 ```
 conda install ipython-notebook
 conda install ipython
+
 ```
 
 To run iPython notebook in c9 run:
